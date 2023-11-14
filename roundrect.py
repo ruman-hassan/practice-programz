@@ -78,9 +78,10 @@ ctx.set_line_width(3)
 roundrect(ctx, 50, 40, 200, 360, 25)
 diamond1(ctx)
 diamond2(ctx)
+bigdiamond(ctx)
 letter_A(ctx)
 letter_B(ctx)
-bigdiamond(ctx)
+
 
 
 surface.write_to_png("roundrect.png")
